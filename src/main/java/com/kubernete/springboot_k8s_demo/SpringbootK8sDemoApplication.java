@@ -11,7 +11,7 @@ public class SpringbootK8sDemoApplication {
 
 	@GetMapping("/msg")
 	public String welcome(){
-		return "Congratulation you successfully deployed your spring boot application on kubernetes 😊😊😊😊";
+		return "Congratulation you successfully deployed your spring boot application on kubernetes 😊";
 	}
 
 	public static void main(String[] args) {
